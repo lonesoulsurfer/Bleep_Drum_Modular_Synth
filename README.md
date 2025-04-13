@@ -11,14 +11,23 @@ I have also added a Sync in which allows you to connect to other modules and pla
 Here's a rundown of the features:
 
 – Four sounds, two with pitch control
+
 – Sync in
+
 – You can reverse the samples
+
 – Record patterns just by playing them. The built in quantizer keeps hits where you want them.
+
 – Click track
+
 – Tap tempo
+
 – Reverse mode
+
 – Noise mode
+
 – 9V battery powered
+
 The main goal with building this module is to create my own 'simple to build' modular synth. I wanted to keep everything as easy as possble with each module built with the following aims:
 
 Can be powered by 9V (and 12V)
