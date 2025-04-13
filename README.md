@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/1ef607a1-d493-4992-a415-114f3c703e90)
+![F1PPYIJM832OWXX](https://github.com/user-attachments/assets/ce6583b1-c790-486d-bd8b-8271f86fc775)
+
 
 
 In this build I recreate the fantastic Bleep Labs 'Bleep Drum' (https://bleeplabs.com/product/bleep-drum-midi/) into a Eurorack format module. I'm working on building my own 'simple' 9v Eurorack which this synth will be a part of.
@@ -31,5 +32,6 @@ I have also posted a video on my YouTube page -
 
 There is also a step by step guide available on my Instructables page - 
 
-![image](https://github.com/user-attachments/assets/5ac09394-d619-4c8b-879f-131b80f1ff7e)
+![FN173WYM7T2LWQN](https://github.com/user-attachments/assets/3c29e68c-9d75-4e66-9e00-e2650b4bcf37)
+
 
