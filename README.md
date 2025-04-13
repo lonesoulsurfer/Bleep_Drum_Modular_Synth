@@ -1,4 +1,4 @@
-In this build I recreate the fantastic Bleep Labs 'Bleep Drum' into a Eurorack format module. I'm working on building my own 'simple' 9v Eurorack which this synth will be a part of.
+In this build I recreate the fantastic Bleep Labs 'Bleep Drum' (https://bleeplabs.com/product/bleep-drum-midi/) into a Eurorack format module. I'm working on building my own 'simple' 9v Eurorack which this synth will be a part of.
 Check out my other recent builds to see the other modules already designed.
 
 So what is the Bleep Drum Synth? Well it's an Arduino based drum machine that allows you to play drum tracks using 4 different samples and record them so you can layer them them up and create some great drum beats.
