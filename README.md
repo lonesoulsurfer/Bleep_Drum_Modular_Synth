@@ -41,7 +41,7 @@ Can fit into any modular synth Eurorck (include the ability to power the module 
 
 Has to sound great!
 
-Lastly, it should be portable and be powered from a 9V battery
+Lastly, it should be portable
 
 
 I have also posted a video on my YouTube page - 
