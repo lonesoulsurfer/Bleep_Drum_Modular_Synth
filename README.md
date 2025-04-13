@@ -44,10 +44,10 @@ Has to sound great!
 Lastly, it should be portable
 
 
-I have also posted a video on my YouTube page - 
+I have also posted a video on my YouTube page - TBA
 
 
-There is also a step by step guide available on my Instructables page - 
+There is also a step by step guide available on my Instructables page - TBA
 
 ![FN173WYM7T2LWQN](https://github.com/user-attachments/assets/3c29e68c-9d75-4e66-9e00-e2650b4bcf37)
 
