@@ -1,55 +1,84 @@
-![F1PPYIJM832OWXX](https://github.com/user-attachments/assets/ce6583b1-c790-486d-bd8b-8271f86fc775)
+# Bleep Drum: Arduino drum machine for Eurorack
 
+This is the [Bleep Drum](https://bleeplabs.com/product/the-bleep-drum/) by Bleep Labs, in a Eurorack module. It is an Arduino drum machine with 4 sounds. You record patterns when you play them, and you can add layers to make drum beats. I added a sync input, so you can play with other modules.
 
+![Bleep Drum](https://github.com/user-attachments/assets/ce6583b1-c790-486d-bd8b-8271f86fc775)
 
-In this build I recreate the fantastic Bleep Labs 'Bleep Drum' (https://bleeplabs.com/product/bleep-drum-midi/) into a Eurorack format module. I'm working on building my own 'simple' 9v Eurorack which this synth will be a part of.
-Check out my other recent builds to see the other modules already designed.
+## Build guide and video
 
-So what is the Bleep Drum Synth? Well it's an Arduino based drum machine that allows you to play drum tracks using 4 different samples and record them so you can layer them them up and create some great drum beats.
+- Step-by-step build guide on Instructables: [Bleep Drum Synth - Powered by Arduino](https://www.instructables.com/Bleep-Drum-Synth-Powered-by-Arduino/)
+- Video on YouTube: [Bleep Drum](https://youtu.be/1a5sbbQQU68)
 
-I have also added a Sync in which allows you to connect to other modules and play along with them.
+## Features
 
-Here's a rundown of the features:
+- 4 sounds, 2 of them with pitch control
+- Record patterns when you play them. A quantizer keeps the hits in time.
+- Reverse mode and noise mode
+- Click track and tap tempo
+- Sync input
+- Power from 9 V (or 12 V)
 
-– Four sounds, two with pitch control
+## What you need
 
-– Sync in
+### Hardware
 
-– You can reverse the samples
+- All parts are in the [parts list](Parts%20List.pdf).
+- The schematic is [Schematic.png](Schematic.png).
+- The Gerber files for the PCB and the front panel are in [Gerber Files](Gerber%20Files/). You can send them to a PCB maker.
 
-– Record patterns just by playing them. The built in quantizer keeps hits where you want them.
+### Software
 
-– Click track
+- Arduino IDE
+- An Arduino Nano
 
-– Tap tempo
+## Upload the firmware
 
-– Reverse mode
+1. Download this repository. Click **Code → Download ZIP**, then extract the ZIP file.
+2. Open `Software/BLEEP_DRUM_15_legacy_upgrade/BLEEP_DRUM_15_legacy_upgrade.ino` in the Arduino IDE.
+3. Connect the Arduino Nano to your computer with a USB cable.
+4. In the **Tools** menu, set these values:
+   - **Board:** Arduino Nano
+   - **Processor:** ATmega328P
+   - **Port:** the COM port of your Nano
+5. Click **Upload**.
+6. Wait for the message **Done uploading**.
 
-– Noise mode
+> **Note:** If the upload fails, set **Processor** to **ATmega328P (Old Bootloader)**, then try again. Many clone Nano boards need this setting.
 
-– 9V battery powered
+## Files in this repository
 
-The main goal with building this module is to create my own 'simple to build' modular synth. I wanted to keep everything as easy as possble with each module built with the following aims:
+| Folder or file | Contents |
+|----------------|----------|
+| `Software/BLEEP_DRUM_15_legacy_upgrade/` | Firmware (Bleep Labs code) |
+| `KiCad - Bleep Drum/` | KiCad files for the front panel |
+| `Front Panel Design - Inkscape.svg` | Front panel artwork |
+| `Gerber Files/` | Gerber files for the PCB and the front panel, ready to order |
+| `Parts List.pdf` | Parts list |
+| `Schematic.png` | Schematic |
 
-Can be powered by 9V (and 12V)
+## Why I made it
 
-Easy to build with minimum components
+I want to make my own modular synth that is simple to build. Each module has these aims:
 
-Use Arduino to keep it simple (plus it helps to keep the components down and everything in tune)
+- It operates from 9 V (and 12 V).
+- It is easy to build, with a minimum of components.
+- It uses an Arduino, to keep the parts count low and everything in tune.
+- It fits in any Eurorack case, and it can use normal Eurorack power.
+- It sounds good.
+- It is portable.
 
-Can fit into any modular synth Eurorck (include the ability to power the module via normal module power sources)
+![Bleep Drum module](https://github.com/user-attachments/assets/3c29e68c-9d75-4e66-9e00-e2650b4bcf37)
 
-Has to sound great!
+## Credits
 
-Lastly, it should be portable
+- Original design and code: the [Bleep Drum](https://bleeplabs.com/product/the-bleep-drum/) by John-Mike Reed (Dr. Bleep), [Bleep Labs](https://bleeplabs.com/). Thank you, Bleep Labs.
+- PCB, front panel, Eurorack version and sync input: Marcus ([lonesoulsurfer](https://github.com/lonesoulsurfer)).
 
+## Support
 
-I have also posted a video on my YouTube page - https://youtu.be/1a5sbbQQU68
+Do you like this project? You can support my work on [GitHub Sponsors](https://github.com/sponsors/lonesoulsurfer).
 
+## Licence
 
-There is also a step by step guide available on my Instructables page - https://www.instructables.com/Bleep-Drum-Synth-Powered-by-Arduino/
-
-
-![FN173WYM7T2LWQN](https://github.com/user-attachments/assets/3c29e68c-9d75-4e66-9e00-e2650b4bcf37)
-
-
+- **Hardware** (PCB, front panel and Gerber files): [CERN Open Hardware Licence v2, Strongly Reciprocal](LICENSE). You can make, change and sell boards. If you share or sell a changed design, you must also share the changed design files under the same licence. Copyright (c) 2025 Marcus (lonesoulsurfer).
+- **Firmware** (`Software/`): the Bleep Drum code by Bleep Labs. Bleep Labs does not give a licence for this code. The CERN licence does **not** apply to it. Before you use the code for a commercial purpose, ask [Bleep Labs](https://bleeplabs.com/) for permission.
